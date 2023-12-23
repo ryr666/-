@@ -1,0 +1,20 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+
+  #以下为druid配置，可以共用datasource中的druid配置，需要覆盖时再重新配置
+    use-ping-method: false
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tGZBLwRfxgv6nWF7aPa
+    access-key-secret: fgEMqoqdxcFzjtTtUcfzFIgnYDIx7K
+    bucket-name: campus-ordering
+
+
+
